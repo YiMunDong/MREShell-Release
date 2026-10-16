@@ -1,2 +1,167 @@
-# MREShell_Release
-MREShell 배포페이지
+<p align="center">
+  <img src="assets/brand/mreshell-splash.svg" alt="MREShell — Myeong-Ryeong-Eeda" width="560">
+</p>
+
+<h1 align="center">Make room for your workflow.</h1>
+
+<p align="center">
+  <strong>Your shells. Your commands. Your own workspace.</strong><br>
+  A free, native terminal for Windows 11.
+</p>
+
+<p align="center">
+  <strong>Windows 11 x64</strong> &nbsp; · &nbsp;
+  Free for personal &amp; commercial use &nbsp; · &nbsp;
+  No account required
+</p>
+
+<p align="center">
+  <a href="https://github.com/YiMunDong/MREShell-Release/releases"><strong>Download MREShell →</strong></a>
+  &nbsp;&nbsp; · &nbsp;&nbsp;
+  <a href="#screenshots">Explore the screenshots</a>
+  &nbsp;&nbsp; · &nbsp;&nbsp;
+  <a href="#get-started">Get started</a>
+</p>
+
+---
+
+## Your familiar shells. A better place to work.
+
+MREShell brings your terminals, projects, and reusable commands together in one Windows application. Keep a web app, an API, and your checks side by side. Give every project its own workspace. Save the commands worth remembering, then bring them back with a shortcut.
+
+Use **PowerShell, Command Prompt, WSL, Git Bash, or a developer prompt**. MREShell hosts the shells you already use and adds practical tools around them.
+
+<a href="assets/screenshots/workspace.jpg">
+  <img src="assets/screenshots/workspace.jpg" alt="MREShell in English, showing a development workspace with a Vite terminal on the left and API and test terminals stacked on the right" width="1200">
+</a>
+
+<p align="center"><sub>One project. Three terminals. A layout ready for your next session. Click any screenshot to open it at full size.</sub></p>
+
+## Why MREShell?
+
+| Make your day easier | What you can do |
+| --- | --- |
+| **Keep projects organized** | Switch workspaces from the sidebar. Arrange terminal tabs, splits, and floating windows, then restore the saved layout next time. |
+| **Stop retyping useful commands** | Build a command and script library with folders, tags, favorites, workspace pins, and parameters such as `{{branch}}` or `{{port}}`. |
+| **Find your next action quickly** | Open the command palette with **Ctrl+Shift+P**. Insert a command for review, execute it, or send it to a new tab or split. |
+| **Bring a workflow together** | Connect steps in a runbook. Wait for a port, an HTTP response, a file, or matching output before continuing. |
+| **Work locally and remotely** | Save SSH and serial sessions. Restore remote panels with a workspace and reconnect after a disconnect. |
+| **Keep the context** | Shell integration records command boundaries, working directories, exit codes, and duration. Revisit activity through the command journal. |
+| **Share with more care** | Secret Shield masks recognized secrets when copying, saving to the journal, or exporting. Paste checks and risk prompts help you review commands. |
+| **Make it your own** | Choose from three theme families, light and dark modes, editable shortcuts, and five interface languages. |
+
+### A small app with room for real work
+
+- **One executable.** A native C++ application, with no separate app resource folder or runtime download. The Microsoft Visual C++ x64 Redistributable is required.
+- **Your data stays local.** Settings, command libraries, and journals live on your computer. No account or telemetry.
+- **Useful tools close at hand.** Quick terminal, terminal search, completion notifications, and built-in text, Markdown, and image viewers.
+- **Five interface languages.** English, Korean, Japanese, Simplified Chinese, and Traditional Chinese.
+- **Free to put to work.** Personal projects, education, and commercial work are covered by the [MREShell license](LICENSE.md).
+
+## From a useful command to a reusable workflow
+
+**1. Give the project a home.** Create a workspace and arrange the terminals you need. The sidebar keeps projects separate; tabs and splits keep related work together.
+
+**2. Save what works.** Save a command you just used with **Ctrl+Shift+S**. Turn changing values into parameters, organize the recipe, and pin it to a workspace.
+
+```powershell
+git switch {{branch}}
+```
+
+*Example of a saved command template. MREShell asks for the parameter value before preparing the command.*
+
+**3. Connect the steps.** Build a runbook for the sequence you repeat. Use readiness conditions to wait until the next service or task is ready.
+
+## Screenshots
+
+These are **actual MREShell app captures** using a fictional Atlas project. Terminal output is staged to illustrate a development environment; the services, commit history, and test counts are demonstration data.
+
+### Project history and workspace command pins
+
+A separate workspace for reviewing project history, with branch switching, port inspection, and recent commits pinned at the top.
+
+<a href="assets/screenshots/recipes.jpg">
+  <img src="assets/screenshots/recipes.jpg" alt="Actual MREShell app showing fictional Git history and command parameter examples, with three commands pinned in the toolbar" width="1200" loading="lazy">
+</a>
+
+### A local development runbook example
+
+Illustrative output for a four-step workflow: check prerequisites, start an API, wait for the web app, and run smoke checks.
+
+<a href="assets/screenshots/runbook.jpg">
+  <img src="assets/screenshots/runbook.jpg" alt="Actual MREShell app showing staged output for a four-step local development runbook, including HTTP and port readiness checks" width="1200" loading="lazy">
+</a>
+
+## Get started
+
+1. **Check the requirements.** Windows 11 (build 22000 or later), an x64 PC, and the [Microsoft Visual C++ x64 Redistributable](https://aka.ms/vc14/vc_redist.x64.exe).
+2. **[Download an available build from Releases](https://github.com/YiMunDong/MREShell-Release/releases).** Read its release notes, then run `MREShell.exe`.
+3. **Make it yours.** Choose your language, default shell, and appearance. Create a workspace and start building your command library.
+
+Optional shells such as PowerShell 7 and Git Bash must be installed separately. SSH connections use the Windows OpenSSH Client.
+
+<p align="center">
+  <a href="https://github.com/YiMunDong/MREShell-Release/releases"><strong>Get MREShell for Windows →</strong></a>
+</p>
+
+## Frequently asked questions
+
+<details>
+<summary><strong>Is MREShell free for work?</strong></summary>
+
+Yes. The license permits free personal, educational, corporate, commercial, and governmental use. MREShell is proprietary freeware; its source code is not distributed. See the [full license agreement](LICENSE.md) for the terms.
+
+</details>
+
+<details>
+<summary><strong>Does it replace PowerShell or cmd?</strong></summary>
+
+MREShell is a terminal host. Your commands still run in the shell you choose. It adds workspaces, a command library, and workflow tools around those shells. Available shells depend on what is installed on your PC.
+
+</details>
+
+<details>
+<summary><strong>Can I use it in portable mode?</strong></summary>
+
+Yes. Create an empty file named `MREShell.portable` next to `MREShell.exe`. MREShell will keep its data in a `data` folder beside the executable. The Microsoft Visual C++ x64 runtime is still required.
+
+</details>
+
+<details>
+<summary><strong>What gets restored when I reopen the app?</strong></summary>
+
+Workspace and panel layouts are saved so you can return to the same arrangement. Restoring the layout starts new shell sessions; it does not resume previously running processes.
+
+</details>
+
+<details>
+<summary><strong>Do I need an account or an AI subscription?</strong></summary>
+
+No. Core terminal and workflow features require neither an account nor an AI subscription. Remote connections and runbook readiness checks use the destinations you configure.
+
+</details>
+
+<details>
+<summary><strong>Does Secret Shield catch every secret?</strong></summary>
+
+Secret Shield masks recognized patterns on supported copy, save, and export paths. Masking and risk checks are best-effort aids. Review commands before executing them and review output before sharing it.
+
+</details>
+
+---
+
+<p align="center">
+  <img src="assets/brand/mreshell-logo.svg" alt="MREShell" width="160">
+</p>
+
+<p align="center">
+  <a href="https://github.com/YiMunDong/MREShell-Release/releases">Releases</a>
+  &nbsp; · &nbsp;
+  <a href="https://github.com/YiMunDong/MREShell-Release/issues">Feedback</a>
+  &nbsp; · &nbsp;
+  <a href="LICENSE.md">License</a>
+  &nbsp; · &nbsp;
+  <a href="assets/brand/NOTICE.md">Brand credits</a>
+</p>
+
+<p align="center"><sub>© 2026 YiMunDong. All rights reserved.</sub></p>

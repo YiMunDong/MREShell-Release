@@ -1,0 +1,6 @@
+# 제품 소개 문서와 벡터 자산의 줄 끝을 LF로 통일한다.
+* text=auto
+*.md text eol=lf
+*.svg text eol=lf
+.gitattributes text eol=lf
+*.jpg binary
