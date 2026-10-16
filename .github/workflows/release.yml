@@ -1,0 +1,33 @@
+name: Release 실행 파일 게시
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - releases/**
+      - .github/scripts/publish-release.py
+      - .github/workflows/release.yml
+      - LICENSE.md
+      - THIRD_PARTY_NOTICES.md
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mreshell-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: 배포 저장소 받기
+        uses: actions/checkout@v6
+      - name: 실행 파일 검증과 릴리즈 게시
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/publish-release.py

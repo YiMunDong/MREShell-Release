@@ -2,5 +2,8 @@
 * text=auto
 *.md text eol=lf
 *.svg text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
 .gitattributes text eol=lf
 *.jpg binary

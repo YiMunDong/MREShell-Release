@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "tag": "v1.2.0-preview.1",
+  "name": "MREShell 1.2.0 Preview 1",
+  "version": "1.2.0.0",
+  "prerelease": true,
+  "blob": "f484201875eab1203af4ff68482b1498523c2b41",
+  "size": 7971840,
+  "sha256": "077c8df3bb94ad69c189512d0f47809c7cac031d97576853288ed69526fe8386",
+  "notes": "releases/v1.2.0-preview.1.md"
+}
