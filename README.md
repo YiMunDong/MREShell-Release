@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <strong>MRE</strong> stands for <strong>Myeong-Ryeong-Eeda</strong> (명령이다), Korean for <strong>“It is a command.”</strong>
+</p>
+
+<p align="center">
   <strong>Windows 11 x64</strong> &nbsp; · &nbsp;
   Free for personal &amp; commercial use &nbsp; · &nbsp;
   No account required
@@ -96,6 +100,34 @@ Illustrative output for a four-step workflow: check prerequisites, start an API,
   <img src="assets/screenshots/runbook.jpg" alt="Actual MREShell app showing staged output for a four-step local development runbook, including HTTP and port readiness checks" width="1200" loading="lazy">
 </a>
 
+## A theme for the way you work
+
+Choose **Titanium Glass**, **Holo HUD**, or **Hyper80s**, with light and dark modes. These actual app captures use the same fictional Atlas workspace so you can compare their appearance. Click an image for the full-size view.
+
+### Titanium Glass
+
+A restrained, glass-inspired interface for everyday work.
+
+| Dark | Light |
+| :---: | :---: |
+| [![Titanium Glass in dark mode](assets/screenshots/themes/titanium-glass-dark.jpg)](assets/screenshots/themes/titanium-glass-dark.jpg) | [![Titanium Glass in light mode](assets/screenshots/themes/titanium-glass-light.jpg)](assets/screenshots/themes/titanium-glass-light.jpg) |
+
+### Holo HUD
+
+A technical, heads-up-display style with distinctive panel outlines and accents.
+
+| Dark | Light |
+| :---: | :---: |
+| [![Holo HUD in dark mode](assets/screenshots/themes/holo-hud-dark.jpg)](assets/screenshots/themes/holo-hud-dark.jpg) | [![Holo HUD in light mode](assets/screenshots/themes/holo-hud-light.jpg)](assets/screenshots/themes/holo-hud-light.jpg) |
+
+### Hyper80s
+
+A retro-inspired interface with pixel typography and a bold visual character.
+
+| Dark | Light |
+| :---: | :---: |
+| [![Hyper80s in dark mode](assets/screenshots/themes/hyper-80s-dark.jpg)](assets/screenshots/themes/hyper-80s-dark.jpg) | [![Hyper80s in light mode](assets/screenshots/themes/hyper-80s-light.jpg)](assets/screenshots/themes/hyper-80s-light.jpg) |
+
 ## Get started
 
 1. **Check the requirements.** Windows 11 (build 22000 or later), an x64 PC, and the [Microsoft Visual C++ x64 Redistributable](https://aka.ms/vc14/vc_redist.x64.exe).
@@ -107,6 +139,14 @@ Optional shells such as PowerShell 7 and Git Bash must be installed separately. 
 <p align="center">
   <a href="https://github.com/YiMunDong/MREShell-Release/releases/download/v1.2.0-preview.1/MREShell.exe"><strong>Get MREShell.exe for Windows →</strong></a>
 </p>
+
+## A personal project, built around a day job
+
+MREShell is a personal project developed in my spare time alongside a full-time job. Feedback, ideas, and bug reports are welcome, but replies and updates may take some time.
+
+I will do my best to consider your suggestions and incorporate them where possible. Thank you for your patience and understanding.
+
+**[Share feedback or report an issue →](https://github.com/YiMunDong/MREShell-Release/issues)**
 
 ## Frequently asked questions
 
