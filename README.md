@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/YiMunDong/MREShell-Release/releases"><strong>Download MREShell →</strong></a>
+  <a href="https://github.com/YiMunDong/MREShell-Release/releases/download/v1.2.0-preview.1/MREShell.exe"><strong>Download MREShell.exe →</strong></a>
   &nbsp;&nbsp; · &nbsp;&nbsp;
   <a href="#screenshots">Explore the screenshots</a>
   &nbsp;&nbsp; · &nbsp;&nbsp;
@@ -24,6 +24,10 @@
 </p>
 
 ---
+
+**Available now: MREShell 1.2.0 Preview 1** · App version `1.2.0.0` · 7.6 MB · [Release notes](https://github.com/YiMunDong/MREShell-Release/releases/tag/v1.2.0-preview.1)
+
+This preview requires the [Microsoft Visual C++ x64 Redistributable](https://aka.ms/vc14/vc_redist.x64.exe). Clean Windows 11 VM validation is pending; this is not a release candidate.
 
 ## Your familiar shells. A better place to work.
 
@@ -95,13 +99,13 @@ Illustrative output for a four-step workflow: check prerequisites, start an API,
 ## Get started
 
 1. **Check the requirements.** Windows 11 (build 22000 or later), an x64 PC, and the [Microsoft Visual C++ x64 Redistributable](https://aka.ms/vc14/vc_redist.x64.exe).
-2. **[Download an available build from Releases](https://github.com/YiMunDong/MREShell-Release/releases).** Read its release notes, then run `MREShell.exe`.
+2. **[Download MREShell 1.2.0 Preview](https://github.com/YiMunDong/MREShell-Release/releases/download/v1.2.0-preview.1/MREShell.exe).** Read its release notes, then run `MREShell.exe`.
 3. **Make it yours.** Choose your language, default shell, and appearance. Create a workspace and start building your command library.
 
 Optional shells such as PowerShell 7 and Git Bash must be installed separately. SSH connections use the Windows OpenSSH Client.
 
 <p align="center">
-  <a href="https://github.com/YiMunDong/MREShell-Release/releases"><strong>Get MREShell for Windows →</strong></a>
+  <a href="https://github.com/YiMunDong/MREShell-Release/releases/download/v1.2.0-preview.1/MREShell.exe"><strong>Get MREShell.exe for Windows →</strong></a>
 </p>
 
 ## Frequently asked questions
