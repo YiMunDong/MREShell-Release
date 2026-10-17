@@ -42,8 +42,8 @@ MREShell brings your terminals, projects, and reusable commands together in one 
 
 Use **PowerShell, Command Prompt, WSL, Git Bash, or a developer prompt**. MREShell hosts the shells you already use and adds practical tools around them.
 
-<a href="assets/screenshots/workspace.jpg">
-  <img src="assets/screenshots/workspace.jpg" alt="MREShell in English, showing a development workspace with a Vite terminal on the left and API and test terminals stacked on the right" width="1200">
+<a href="assets/screenshots/workspace.png">
+  <img src="assets/screenshots/workspace.png" alt="MREShell in English, showing a development workspace with a Vite terminal on the left and API and test terminals stacked on the right" width="1200">
 </a>
 
 <p align="center"><sub>One project. Three terminals. No window hide-and-seek. Click any screenshot to open it at full size.</sub></p>
@@ -87,20 +87,20 @@ git switch {{branch}}
 
 These are **actual MREShell app captures** using a fictional Atlas project. Terminal output is staged to illustrate a development environment; the services, commit history, and test counts are demonstration data.
 
-### Project history and workspace command pins
+### Reusable commands, ready when you need them
 
-A separate workspace for reviewing project history, with branch switching, port inspection, and recent commits pinned at the top.
+Browse saved PowerShell commands and runbooks beside a three-pane workspace. These examples are staged and safe to review.
 
-<a href="assets/screenshots/recipes.jpg">
-  <img src="assets/screenshots/recipes.jpg" alt="Actual MREShell app showing fictional Git history and command parameter examples, with three commands pinned in the toolbar" width="1200" loading="lazy">
+<a href="assets/screenshots/recipes.png">
+  <img src="assets/screenshots/recipes.png" alt="Actual MREShell app showing the Atlas development workspace beside a library of saved PowerShell commands and a runbook" width="1200" loading="lazy">
 </a>
 
 ### A local development runbook example
 
-Illustrative output for a four-step workflow: check prerequisites, start an API, wait for the web app, and run smoke checks.
+A safe three-step example: wait for terminal output, open a new split after a short delay, and finish. The editor shows each step before you run it.
 
-<a href="assets/screenshots/runbook.jpg">
-  <img src="assets/screenshots/runbook.jpg" alt="Actual MREShell app showing staged output for a four-step local development runbook, including HTTP and port readiness checks" width="1200" loading="lazy">
+<a href="assets/screenshots/runbook.png">
+  <img src="assets/screenshots/runbook.png" alt="Actual MREShell runbook editor showing a safe demo sequence with an output readiness condition, a delayed split, and a final step" width="1200" loading="lazy">
 </a>
 
 ## Same commands. Different mood. Same typos.
@@ -113,7 +113,7 @@ A restrained, glass-inspired interface for everyday work. For when your terminal
 
 | Dark | Light |
 | :---: | :---: |
-| [![Titanium Glass in dark mode](assets/screenshots/themes/titanium-glass-dark.jpg)](assets/screenshots/themes/titanium-glass-dark.jpg) | [![Titanium Glass in light mode](assets/screenshots/themes/titanium-glass-light.jpg)](assets/screenshots/themes/titanium-glass-light.jpg) |
+| [![Titanium Glass in dark mode](assets/screenshots/themes/titanium-glass-dark.png)](assets/screenshots/themes/titanium-glass-dark.png) | [![Titanium Glass in light mode](assets/screenshots/themes/titanium-glass-light.png)](assets/screenshots/themes/titanium-glass-light.png) |
 
 ### Holo HUD
 
@@ -121,7 +121,7 @@ A technical, heads-up-display style with distinctive panel outlines and accents.
 
 | Dark | Light |
 | :---: | :---: |
-| [![Holo HUD in dark mode](assets/screenshots/themes/holo-hud-dark.jpg)](assets/screenshots/themes/holo-hud-dark.jpg) | [![Holo HUD in light mode](assets/screenshots/themes/holo-hud-light.jpg)](assets/screenshots/themes/holo-hud-light.jpg) |
+| [![Holo HUD in dark mode](assets/screenshots/themes/holo-hud-dark.png)](assets/screenshots/themes/holo-hud-dark.png) | [![Holo HUD in light mode](assets/screenshots/themes/holo-hud-light.png)](assets/screenshots/themes/holo-hud-light.png) |
 
 ### Hyper80s
 
@@ -129,7 +129,7 @@ A retro-inspired interface with pixel typography and a bold visual character. Yo
 
 | Dark | Light |
 | :---: | :---: |
-| [![Hyper80s in dark mode](assets/screenshots/themes/hyper-80s-dark.jpg)](assets/screenshots/themes/hyper-80s-dark.jpg) | [![Hyper80s in light mode](assets/screenshots/themes/hyper-80s-light.jpg)](assets/screenshots/themes/hyper-80s-light.jpg) |
+| [![Hyper80s in dark mode](assets/screenshots/themes/hyper-80s-dark.png)](assets/screenshots/themes/hyper-80s-dark.png) | [![Hyper80s in light mode](assets/screenshots/themes/hyper-80s-light.png)](assets/screenshots/themes/hyper-80s-light.png) |
 
 ## Get started
 
