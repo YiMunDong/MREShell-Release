@@ -147,7 +147,7 @@ Optional shells such as PowerShell 7 and Git Bash must be installed separately. 
 
 MREShell is a personal project developed in my spare time alongside a full-time job. The development team is me, and occasionally a very optimistic to-do list.
 
-Feedback, ideas, and bug reports are welcome. Replies and updates may take some time, especially when the day job insists on being a day job.
+Feedback, ideas, and bug reports are welcome.
 
 I read suggestions and do my best to incorporate them where possible. Thanks for trying MREShell, sharing what could be better, and being patient while I work through the list.
 
@@ -212,5 +212,7 @@ Secret Shield masks recognized patterns on supported copy, save, and export path
   &nbsp; · &nbsp;
   <a href="assets/brand/NOTICE.md">Brand credits</a>
 </p>
+
+<p align="center"><sub>Replies to feedback and bug reports may take some time. Thank you for your patience and understanding.</sub></p>
 
 <p align="center"><sub>© 2026 YiMunDong. All rights reserved.</sub></p>
